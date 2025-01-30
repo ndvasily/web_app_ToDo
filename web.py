@@ -13,7 +13,7 @@ def add_todo():
 # gi raspredeluva elementite kako sto se podredeni vo kodot.
 st.title("My Todo App")  # naslovot go printa prv, podnaslov vtor i tn.
 st.subheader("This is my todo app.")
-st.write("This app is to help you complete more tasks daily.")
+st.write("This app is to keep track of your daily tasks.")
 
 for index, todo in enumerate(todos):
     checkbox = st.checkbox(todo, key=todo)

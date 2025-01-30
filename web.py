@@ -26,5 +26,5 @@ for index, todo in enumerate(todos):
 st.text_input(label="", placeholder="Enter a todo...",
               on_change=add_todo, key='new_todo')
 
-st.session_state  # dopolnitelen prozor koj ni dava realtime input
+#st.session_state  # dopolnitelen prozor koj ni dava realtime input
 # sekoj item mora da ima key za da bide prikazan vo sstate
